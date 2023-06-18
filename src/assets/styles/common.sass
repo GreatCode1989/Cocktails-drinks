@@ -12,9 +12,10 @@ body
 
 a
     color: inherit
+    text-decoration: none
 
 .title
-    font-size: 32px
+    font-size: 22px
     font-weight: 500
     letter-spacing: 0.2em
     text-transform: uppercase
@@ -24,3 +25,45 @@ a
     height: 3px
     margin: 32px auto 0
     background-color: $accent
+    
+.wrapper
+    display: flex
+    align-items: center
+    justify-content: center
+
+.info
+    padding: 50px 0
+    text-align: center
+
+.list
+    width: 560px
+    padding: 50px 0 80px
+    text-align: left
+    margin-left: 70px
+
+    &-item 
+        position: relative 
+        padding: 20px 
+        color: $green
+
+        &:last-child
+            margin-bottom: 0
+
+        &::before
+            content: ''
+            position: absolute
+            top: 50%
+            left: 0
+            height: 7px
+            width: 7px
+            transform: translateY(-50%)
+            background: url('/src/assets/img/choise-1.jpg') no-repeat 50%
+
+.instructions
+    color: $blue
+    width: 516px
+    margin: 0 auto
+    font-size: 18px
+    line-height: 30px
+    letter-spacing: 0.1em
+
