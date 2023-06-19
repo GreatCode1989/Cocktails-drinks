@@ -83,7 +83,7 @@ function removeIngredient() {
 
 
 .select-wrapper 
-    padding: 25px
+    padding: 8px
 
 .lector
     width: 200px
@@ -107,6 +107,6 @@ function removeIngredient() {
     align-items: center
     overflow-y: auto
     max-height: 400px
-    margin-top: 40px
+    margin-top: 30px
     justify-content: space-around
 </style>
