@@ -83,7 +83,7 @@ function removeIngredient() {
 
 
 .select-wrapper 
-    padding: 50px
+    padding: 25px
 
 .lector
     width: 200px
